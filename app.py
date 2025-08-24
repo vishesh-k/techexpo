@@ -526,7 +526,19 @@ elif choice == "Portfolio":
     # ---------- HERO / INTRO ----------
     col1, col2 = st.columns([1, 3])
     with col1:
-        st.image(r"C:\Users\adity\OneDrive\Documents\WhatsApp Image 2025-07-03 at 11.55.19_00a18f75.jpg", width=180)  # Replace with your photo
+       import streamlit as st
+from PIL import Image
+
+st.title("Upload Your Profile Photo")
+
+# File uploader
+uploaded_file = st.file_uploader("Choose a profile image", type=["png", "jpg", "jpeg"])
+
+if uploaded_file is not None:
+    # Open and display the image
+    image = Image.open(uploaded_file)
+    st.image(image, width=180)
+    st.success("✅ Photo uploaded successfully!")
     with col2:
         st.markdown("""
             ## 👋 Hi, I'm Vishesh kumar Prajapati
