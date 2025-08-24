@@ -10,3 +10,5 @@ opencv-python>=4.7  # For image processing (cv2)
 opencv-contrib-python>=4.7  # Optional, extra OpenCV modules
 matplotlib>=3.8     # For plotting before/after images
 opencv-python-headless>=4.7
+opencv-python-headless==4.10.0.84
+
