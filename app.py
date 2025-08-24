@@ -772,7 +772,11 @@ if uploaded_file is not None:
     st.title("💧 Water Quality Prediction by pH Values")
 
     # Load dataset
-    df = pd.read_csv(r"C:\Users\adity\Downloads\water_potability (1).csv")
+   uploaded_file = st.file_uploader("Choose a CSV file", type=["csv"])
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    st.success("✅ Dataset loaded successfully!")
+    st.dataframe(df.head())
 
     # Ensure dataset has required columns
     if "ph" in df.columns and "Potability" in df.columns:
