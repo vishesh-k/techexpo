@@ -1117,11 +1117,11 @@ elif choice == "Team":
         st.session_state.team = [
             {"name": "Vishesh Kumar Prajapati", "role": "Founder / ML Engineer",
              "email": "visheshprajapati7920@gmail.com", "linkedin": "https://www.linkedin.com/in/vishesh-kumar-prajapati-45111829a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-             "github": "https://github.com/vishes-i", "photo": None},
+             "github": "https://github.com/vishes-i", "https://tse2.mm.bing.net/th/id/OIP.08QHvLXEP--Se-rGuX6NgwHaKX?r=0&cb=thfc1&w=772&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3": None},
               {"name": "Sumit Yadav", "role": "web developer", "email": "sy2902913@gmail.com",
-             "linkedin": "https://www.linkedin.com/in/sumit-yadav-3b93a92a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "github": "", "photo": None},
+             "linkedin": "https://www.linkedin.com/in/sumit-yadav-3b93a92a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "github": "", "https://static.vecteezy.com/system/resources/previews/011/490/381/original/happy-smiling-young-man-avatar-3d-portrait-of-a-man-cartoon-character-people-illustration-isolated-on-white-background-vector.jpg": None},
             {"name": "Tejashwani singh rathore", "role": "web developer", "email": "tejaswanirathore910@gmail.com",
-             "linkedin": "https://www.linkedin.com/in/tejashwani-singh-9b8a20299/", "github": "", "photo": None},
+             "linkedin": "https://www.linkedin.com/in/tejashwani-singh-9b8a20299/", "github": "", "https://img.freepik.com/premium-vector/woman-character-vector_961307-37911.jpg": None},
              
         ]
     else:
