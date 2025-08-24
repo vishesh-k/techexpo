@@ -547,13 +547,13 @@ elif choice == "Portfolio":
         """)
         st.markdown(
             """
-            <a href="https://linkedin.com/in/yourusername" target="_blank">
+            <a href="https://www.linkedin.com/in/vishesh-kumar-prajapati-45111829a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                 <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" height="30">
             </a>
-            <a href="https://github.com/yourusername" target="_blank">
+            <a href="https://github.com/vishes-i" target="_blank">
                 <img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white" height="30">
             </a>
-            <a href="mailto:youremail@gmail.com" target="_blank">
+            <a href="mailto:visheshprajapati7920@gmail.com" target="_blank">
                 <img src="https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white" height="30">
             </a>
             """,
@@ -1116,10 +1116,13 @@ elif choice == "Team":
     if "team" not in st.session_state:
         st.session_state.team = [
             {"name": "Vishesh Kumar Prajapati", "role": "Founder / ML Engineer",
-             "email": "vishesh@example.com", "linkedin": "https://linkedin.com/in/your-id",
-             "github": "https://github.com/", "photo": None},
-            {"name": "Teammate 2", "role": "Data Scientist", "email": "teammate2@example.com",
-             "linkedin": "https://linkedin.com", "github": "", "photo": None},
+             "email": "visheshprajapati7920@gmail.com", "linkedin": "https://www.linkedin.com/in/vishesh-kumar-prajapati-45111829a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+             "github": "https://github.com/vishes-i", "photo": None},
+              {"name": "Sumit Yadav", "role": "web developer", "email": "sy2902913@gmail.com",
+             "linkedin": "https://www.linkedin.com/in/sumit-yadav-3b93a92a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "github": "", "photo": None},
+            {"name": "Tejashwani singh rathore", "role": "web developer", "email": "tejaswanirathore910@gmail.com",
+             "linkedin": "https://www.linkedin.com/in/tejashwani-singh-9b8a20299/", "github": "", "photo": None},
+             
         ]
     else:
         for m in st.session_state.team:
